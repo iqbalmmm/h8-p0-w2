@@ -1,0 +1,96 @@
+1. newton Second Law
+
+Algoritma 
+Masukkan nilai 600kg di massa benda
+Masukkan nilai 2m/s2 di percepatan benda
+Kalikan massa benda dengan percepatan benda
+Masukkan hasil perkalian tersebut di resultan gaya 
+Tampilkan nilai resultan gaya sebagai output
+
+
+pseudocode
+STORE = "massa benda" WITH 600kg
+STORE = "percepatan benda" WITH 2 m/s2
+STORE = "resultan gaya" without any value
+SET = "resultan gaya" with "massa benda" multiple "percepatan benda"
+DISPLAY "resultan gaya"
+
+
+2. Tahun Kabisat
+
+algoritma
+Inputkan Tahun
+Lakukan pembagian tahun yang sudah di inputkan dengan angka 4
+Jika Tahun % 4 menghasilkan sisa bagi bukan 0, maka tampilkan tahun bukan Kabisat
+Lakukan pembagian tahun yang sudah di inputkan dengan angka 100 dan 400
+Jika tahun % 100 menghasilkan sisa bagi 0 dan tahun % 400 menghasilkan sisa bagi bukan 0, maka tampilkan tahun bukan Kabisat
+Jika tidak memenuhi semua kondisi diatas, tampilkan tahun Kabisat
+
+
+pseudocode
+STORE "Tahun"
+SET "Tahun" mod 4
+IF "Tahun" mod 4 ≠ 0 THEN
+    DISPLAY "Tahun Bukan Kabisat"
+END IF    
+SET "Tahun" mod 100 AND "Tahun" mod 400
+IF "Tahun" mod 100 = 0 AND "Tahun" mod 400 ≠ 0 THEN
+    DISPLAY "Tahun Bukan Kabisat"
+ELSE
+DISPLAY "Tahun Kabisat"
+END IF
+
+3. Laundry Day 
+
+algoritma
+Siapkan pakaian yang ingin dimasukkan ke mesin cuci
+Masukkan pakaian ke mesin cuci satu persatu mulai dari 1
+Masukkan pakaian sampai mencapai 20 pakaian
+Jalankan Mesin cuci
+
+pseudocode
+STORE pakaian WITH 1
+WHILE "pakaian" <= 20
+ADD "pakaian" by 1
+DISPLAY "proses laundry"
+
+4. Periksa kuku
+
+Siswa/siswi sebanyak 40 orang
+Periksa kuku siswa/siswi dimulai dari 1 siswa/siswi
+Lakukan lagi periksa kuku sampai mencapai 40 siswa/siswi
+Jika siswa/siswi memiliki kuku yang panjang, maka guru akan menghukum siswa/siswi tersebut
+Jika tidak memenuhi kondisi diatas maka guru akan memuji siswa/siswi tersebut
+
+
+STORE "Siswa/Siswi" with 1
+SET "Periksa Kuku"
+WHILE "Siswa/Siswi" <=40 THEN
+    SET "Periksa Kuku
+    ADD "Siswa/Siswi" by 1
+IF "Siswa/Siswi" times "Periksa Kuku" ≠ 0 THEN
+    DISPLAY "Akan Mendapat Hukuman Guru"
+ELSE
+    DISPLAY "Akan Mendapat Pujian Guru"
+END IF
+
+
+
+var nama = 'Mikael';
+var peran = '';
+
+if (nama === "" && peran === "") {
+    console.log("nama harus diisi");
+} else if (nama === "mikael" && peran === ""){
+    console.log("Halo Mikael, Pilih peranmu untuk memulai game")
+} else if (nama === "nina" && peran === "ksatria"){
+    console.log("Selamat datang di Dunian Proxytia, Danu)
+    console.log("Halo ksatria Nina, kamu dapat menyerang senjatamu")
+} else if (nama === "Danu" && peran === "Tabib") {
+    console.log("Selamat datang di Dunia Proxytia, Danu");
+    console.log("Halo Tabib Danu, kamu akan membantu temanmu yang terluka");
+} else if (nama === "Zero" && peran === "Penyihir") {
+    console.log("Selamat datang di Dunia Proxytia, Zero");
+    console.log("Halo Penyihir Zero, ciptakan keajaiban yang membantu kemenanganmu!");
+}
+
